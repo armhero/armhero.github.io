@@ -2,12 +2,12 @@ Some convenient [Docker](http://docker.com) images for the ARM Platform, built o
 
 ## Base images
 
-The base images include only the operating system itself, nothing other. They are built automatically with Jenkins CI. The Jobs are defined in Jenkins DSL found in the [armhero/jenkins-dsl](https://github.com/armhero/jenkins-dsl) repository.
+The base images include only the operating system itself, nothing other. They are built automatically with Jenkins CI. The Jobs are defined in Jenkins DSL as found in the [armhero/jenkins-dsl](https://github.com/armhero/jenkins-dsl) repository.
 
 
-### Alpine Linux: armhero/alpine
+### Alpine Linux - [armhero/alpine](https://github.com/armhero/alpine)
 
-A small and secure distribution. Only 3MB.
+A small and secure Linux distribution. Only 3MB.
 
 [View on Github](https://github.com/armhero/alpine) | [View on Docker Hub](https://hub.docker.com/r/armhero/debian/)
 
