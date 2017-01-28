@@ -16,6 +16,6 @@ A popular linux distribution.
 
 [View on Github](https://github.com/armhero/debian) | [View on Docker Hub](https://hub.docker.com/r/armhero/debian/)
 
-## About
+## About
 
 These images are built with Jenkins on a Raspberry Pi 1, 2 and 3 Cluster. They are created on a regular basis, stable branches once a week, testing branches all night.
