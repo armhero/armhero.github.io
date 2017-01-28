@@ -10,7 +10,7 @@ A small and secure Linux distribution. Only 3 MB.
 
 [View on GitHub](https://github.com/armhero/alpine) | [View on Docker Hub](https://hub.ocker.com/r/armhero/alpine/)
 
-### [Debian Linux - armhero/debian](https://github.com/armhero/debian)
+### Debian Linux - [armhero/debian](https://github.com/armhero/debian)
 
 A popular Linux distribution.
 
