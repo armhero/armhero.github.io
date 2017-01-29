@@ -17,6 +17,8 @@ A small and secure Linux distribution. Only 3 MB.
 
 A popular Linux distribution.
 
+*Does only work on Raspberry 2 and above due lack of armv6 support.*
+
 [View on GitHub](https//github.com/armhero/debian) | [View on Docker Hub](https//hub.ocker.com/r/armhero/debian/)
 
 ## Application images
