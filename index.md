@@ -25,7 +25,23 @@ These images are built with Jenkins Pipeline. Refer to the Jenkinsfile if you wa
 
 ### Nextcloud - [armhero/nextcloud](https://github.com/armhero/nextcloud)
 
-[Nextcloud](http://nextcloud.com) for ARM.
+[Nextcloud](http://nextcloud.com) on ARM.
+
+Usage:
+```
+docker run -d --name nextcloud -p 80:80 -v my_local_data_folder:/data armhero/nextcloud
+```
+
+[View on GitHub](https://github.com/armhero/nextcloud) | [View on Docker Hub](https://hub.ocker.com/r/armhero/nextcloud/)
+
+### Jenkins Slave - [armhero/jenkins-slave](https://github.com/armhero/jenkins-slave)
+
+The Jenkins slave used to build these images.
+
+Usage:
+```
+docker run -d --privileged -v /var/run/docker.sock:/var/run/docker.sock armhero/jenkins-slave
+```
 
 [View on GitHub](https://github.com/armhero/nextcloud) | [View on Docker Hub](https://hub.ocker.com/r/armhero/nextcloud/)
 
