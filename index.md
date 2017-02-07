@@ -42,13 +42,9 @@ Usage:
 docker run -d --name nextcloud -p 80:80 -v my_local_data_folder:/data armhero/nextcloud
 ```
 
-<<<<<<< HEAD
 **Warning!** Works only on RPi 2 and above.
 
-[View on GitHub](https://github.com/armhero/nextcloud) | [View on Docker Hub](https://hub.ocker.com/r/armhero/nextcloud/)
-=======
 [View on GitHub](https://github.com/armhero/nextcloud) | [View on Docker Hub](https://hub.docker.com/r/armhero/nextcloud/)
->>>>>>> 65e2038f03c3ddca026250cd180db2a6df251b59
 
 ### Jenkins Slave - [armhero/jenkins-slave](https://github.com/armhero/jenkins-slave)
 
