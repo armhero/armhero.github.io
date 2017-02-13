@@ -46,6 +46,19 @@ docker run -d --name nextcloud -p 80:80 -v my_local_data_folder:/data armhero/ne
 
 [View on GitHub](https://github.com/armhero/nextcloud) | [View on Docker Hub](https://hub.docker.com/r/armhero/nextcloud/)
 
+### Home-Assistant - [armhero/home-assistant](https://github.com/armhero/home-assistant)
+
+[Home-Assistant](http://home-assistant.io) on ARM.
+
+Usage:
+```
+docker run -d --name hass -p 8123:8123 -v my_local_config_folder:/config armhero/home-assistant
+```
+
+**Warning!** Works only on RPi 2 and above.
+
+[View on GitHub](https://github.com/armhero/home-assistant) | [View on Docker Hub](https://hub.docker.com/r/armhero/home-assistant/)
+
 ### Jenkins Slave - [armhero/jenkins-slave](https://github.com/armhero/jenkins-slave)
 
 The Jenkins slave used to build these images.
